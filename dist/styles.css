@@ -1,0 +1,81 @@
+:root{
+    --main-color: #745045;
+    --secondary-color: #f2eae1;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.navbar-custom {
+    background-color: var(--main-color);
+}
+.nav-item {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.nav-link {
+    color: var(--white-color);
+}
+
+.main-container {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-image {
+    max-height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    padding: 10px;
+}
+
+/* contact page start */
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--black-color);
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 10px;
+}
+.contact-email-text a {
+    text-decoration: none;
+}
+.contact-social-media {
+    color: var(--main-color);
+}
+.contact-social-media i:hover {
+    color: var(--black-color);
+}
+.contact-social-media i {
+    font-size: 2rem;
+    margin: 10px;
+}
+.contact-social-media a {
+    text-decoration: none;
+}
+
+/* contact page end */
